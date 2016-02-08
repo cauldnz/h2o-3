@@ -1,0 +1,27 @@
+[2016-02-07 04:55:47] Connect to h2o on IP: 127.0.0.1 PORT: 40000
+
+------------------------------  ----------------------------
+H2O cluster uptime:             1 seconds 911 milliseconds
+H2O cluster version:            3.7.0.99999
+H2O cluster name:               H2O_runit_wendycwong_4669124
+H2O cluster total nodes:        1
+H2O cluster total free memory:  910.5 MB
+H2O cluster total cores:        4
+H2O cluster allowed cores:      4
+H2O cluster healthy:            True
+H2O Connection ip:              127.0.0.1
+H2O Connection port:            40000
+H2O Connection proxy:
+Python Version:                 2.7.10
+------------------------------  ----------------------------
+Traceback (most recent call last):
+  File "/Users/wendycwong/h2o-3/h2o-py/scripts/h2o-py-test-setup.py", line 143, in <module>
+    h2o_test_setup(sys.argv)
+  File "/Users/wendycwong/h2o-3/h2o-py/scripts/h2o-py-test-setup.py", line 138, in h2o_test_setup
+    elif _IS_PYUNIT_:    pyunit_utils.pyunit_exec(_TEST_NAME_)
+  File "/Users/wendycwong/h2o-3/h2o-py/tests/pyunit_utils/utilsPY.py", line 363, in pyunit_exec
+    exec(pyunit_c, p)
+  File "<string>", line 78, in <module>
+  File "<string>", line 101, in Test4PValues
+NameError: name '__file__' is not defined
+Sucessfully closed the H2O Session.

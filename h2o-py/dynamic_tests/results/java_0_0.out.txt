@@ -1,0 +1,52 @@
+02-06 20:55:46.428 192.168.86.119:40000  3104   main      INFO: ----- H2O started  -----
+02-06 20:55:46.466 192.168.86.119:40000  3104   main      INFO: Build git branch: master
+02-06 20:55:46.466 192.168.86.119:40000  3104   main      INFO: Build git hash: 2765d9f35464e47f48ca1d8dd2fd507b7b3739b4
+02-06 20:55:46.466 192.168.86.119:40000  3104   main      INFO: Build git describe: jenkins-master-3342
+02-06 20:55:46.467 192.168.86.119:40000  3104   main      INFO: Build project version: 3.7.0.99999
+02-06 20:55:46.467 192.168.86.119:40000  3104   main      INFO: Built by: 'wendycwong'
+02-06 20:55:46.467 192.168.86.119:40000  3104   main      INFO: Built on: '2016-01-25 10:07:07'
+02-06 20:55:46.467 192.168.86.119:40000  3104   main      INFO: Java availableProcessors: 4
+02-06 20:55:46.467 192.168.86.119:40000  3104   main      INFO: Java heap totalMemory: 245.5 MB
+02-06 20:55:46.467 192.168.86.119:40000  3104   main      INFO: Java heap maxMemory: 910.5 MB
+02-06 20:55:46.467 192.168.86.119:40000  3104   main      INFO: Java version: Java 1.8.0_65 (from Oracle Corporation)
+02-06 20:55:46.467 192.168.86.119:40000  3104   main      INFO: JVM launch parameters: [-Xmx1g, -ea]
+02-06 20:55:46.467 192.168.86.119:40000  3104   main      INFO: OS version: Mac OS X 10.11.3 (x86_64)
+02-06 20:55:46.467 192.168.86.119:40000  3104   main      INFO: Machine physical memory: 16.00 GB
+02-06 20:55:46.468 192.168.86.119:40000  3104   main      INFO: X-h2o-cluster-id: 1454820945131
+02-06 20:55:46.468 192.168.86.119:40000  3104   main      INFO: User name: 'wendycwong'
+02-06 20:55:46.468 192.168.86.119:40000  3104   main      INFO: Opted out of sending usage metrics.
+02-06 20:55:46.468 192.168.86.119:40000  3104   main      INFO: Possible IP Address: awdl0 (awdl0), fe80:0:0:0:1cf3:1cff:fe4c:6610%awdl0
+02-06 20:55:46.468 192.168.86.119:40000  3104   main      INFO: Possible IP Address: en0 (en0), fe80:0:0:0:aebc:32ff:feb3:4c93%en0
+02-06 20:55:46.468 192.168.86.119:40000  3104   main      INFO: Possible IP Address: en0 (en0), 192.168.86.119
+02-06 20:55:46.468 192.168.86.119:40000  3104   main      INFO: Possible IP Address: lo0 (lo0), fe80:0:0:0:0:0:0:1%lo0
+02-06 20:55:46.468 192.168.86.119:40000  3104   main      INFO: Possible IP Address: lo0 (lo0), 0:0:0:0:0:0:0:1
+02-06 20:55:46.468 192.168.86.119:40000  3104   main      INFO: Possible IP Address: lo0 (lo0), 127.0.0.1
+02-06 20:55:46.469 192.168.86.119:40000  3104   main      INFO: Internal communication uses port: 40001
+02-06 20:55:46.469 192.168.86.119:40000  3104   main      INFO: Listening for HTTP and REST traffic on http://192.168.86.119:40000/
+02-06 20:55:46.470 192.168.86.119:40000  3104   main      INFO: H2O cloud name: 'H2O_runit_wendycwong_4669124' on /192.168.86.119:40000, discovery address /227.212.133.241:58324
+02-06 20:55:46.470 192.168.86.119:40000  3104   main      INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+02-06 20:55:46.470 192.168.86.119:40000  3104   main      INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:40000 wendycwong@192.168.86.119'
+02-06 20:55:46.470 192.168.86.119:40000  3104   main      INFO:   2. Point your browser to http://localhost:55555
+02-06 20:55:46.471 192.168.86.119:40000  3104   main      INFO: Log dir: '/tmp/h2o-wendycwong/h2ologs'
+02-06 20:55:46.471 192.168.86.119:40000  3104   main      INFO: Cur dir: '/Users/wendycwong/h2o-3/h2o-py/dynamic_tests/results'
+02-06 20:55:46.489 192.168.86.119:40000  3104   main      INFO: HDFS subsystem successfully initialized
+02-06 20:55:46.490 192.168.86.119:40000  3104   main      INFO: S3 subsystem successfully initialized
+02-06 20:55:46.490 192.168.86.119:40000  3104   main      INFO: Flow dir: '/Users/wendycwong/h2oflows'
+02-06 20:55:46.503 192.168.86.119:40000  3104   main      INFO: Cloud of size 1 formed [/192.168.86.119:40000]
+02-06 20:55:46.504 192.168.86.119:40000  3104   main      INFO: Registered 0 extensions in: 421mS
+02-06 20:55:47.028 192.168.86.119:40000  3104   main      INFO: Registered: 116 REST APIs in: 524mS
+02-06 20:55:47.471 192.168.86.119:40000  3104   main      INFO: Registered: 182 schemas in: 442mS
+02-06 20:55:47.472 192.168.86.119:40000  3104   main      INFO: 
+02-06 20:55:47.472 192.168.86.119:40000  3104   main      INFO: Open H2O Flow in your web browser: http://192.168.86.119:40000/
+02-06 20:55:47.472 192.168.86.119:40000  3104   main      INFO: 
+02-06 20:55:47.538 192.168.86.119:40000  3104   #40034-19 INFO: Method: GET   , URI: /3/InitID, route: /3/InitID, parms: {}
+02-06 20:55:47.542 192.168.86.119:40000  3104   #40034-19 INFO: Locking cloud to new members, because water.api.InitIDV3
+02-06 20:55:47.562 192.168.86.119:40000  3104   #40034-18 INFO: ------------------------------------------------------------
+02-06 20:55:47.570 192.168.86.119:40000  3104   #40034-15 INFO: 
+02-06 20:55:47.577 192.168.86.119:40000  3104   #40034-14 INFO: STARTING TEST: pyunit_GLM_p_values.py
+02-06 20:55:47.581 192.168.86.119:40000  3104   #40034-17 INFO: 
+02-06 20:55:47.585 192.168.86.119:40000  3104   #40034-13 INFO: ------------------------------------------------------------
+02-06 20:55:47.590 192.168.86.119:40000  3104   #40034-19 INFO: Method: DELETE, URI: /3/DKV, route: /3/DKV, parms: {}
+02-06 20:55:47.590 192.168.86.119:40000  3104   #40034-19 INFO: Removing all objects
+02-06 20:55:47.614 192.168.86.119:40000  3104   #40034-19 INFO: Finished removing objects
+02-06 20:55:47.944 192.168.86.119:40000  3104   #40034-16 INFO: Method: DELETE, URI: /3/InitID, route: /3/InitID, parms: {}

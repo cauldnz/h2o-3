@@ -243,7 +243,7 @@ class Test4PValues:
     pValue_h2o_standard = self.trainGlm_get_pvalues(True,training_data,X,Y)
 
     # for debugging
-    # self.printPValues("P-values from H2O python: ",pValue_h2o)
+    self.printPValues("P-values from H2O python: ",pValue_h2o)
     # self.printPValues("P-values from H2O R: ",pValue_h2oR)
     # self.printPValues("P-values from R: ",pValue_R)
     # self.printPValues("P-values from theory: ", pValue_theory)
